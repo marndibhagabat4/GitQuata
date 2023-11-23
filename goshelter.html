@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goShelter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <style type="text/css">
+        #h4{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+        }
+        #a{
+            box-shadow: 0px 2px 4px  #4e4e4e;border-color: #0f0f0f; border-radius: 20px;
+            padding: 20px; height: 180px;
+        }
+        #b{box-shadow: 0px 2px 4px #4e4e4e; border-color: #0f0f0f; border-radius: 20px; padding: 20px;height: 180px;}
+        #c{box-shadow: 0px 2px 4px #4e4e4e; border-color: #0f0f0f; border-radius: 20px; padding: 20px;}
+        #d{box-shadow: 0px 2px 4px #4e4e4e; border-color: #0f0f0f; border-radius: 20px; padding: 20px;}
+        #e{box-shadow: -1px 15px 45px -30px #0f0f0f; border-color: #0f0f0f; border-top: 5px solid rgb(4, 207, 207); height: 300px;border-radius: 8px;}
+        #f{box-shadow: -1px 15px 45px -30px #0f0f0f; border-color: #0f0f0f; border-top: 5px solid rgb(4, 207, 207); height: 300px;border-radius: 8px;}
+        #g{box-shadow: -1px 15px 45px -30px #0f0f0f; border-color: #0f0f0f; border-top: 5px solid rgb(4, 207, 207); height: 300px;border-radius: 8px;}
+        #h{box-shadow: -1px 15px 45px -30px #0f0f0f; border-color: #0f0f0f; border-top: 5px solid rgb(4, 207, 207); height: 300px;border-radius: 8px;}
+        
+        img{vertical-align: middle; border-style: none;}
+        #HppyC{width: 50%; height: 95px;}
+        #Bulding{width: 50%; height: 95px;}
+        #map{width: 50%; height: 95px;}
+        #guest{width: 50%; height: 95px;}
+        #footer{
+            background-color: rgb(5, 196, 196);height: 350spx;}
+        #secfoot{height: 80px;}
+        #Comfort{width: 100%;height: 170px;}
+        #Safety{width: 100%;height: 170px;}
+        #PocketFriendly{width: 100%;height: 170px;}
+        #Caring{width: 100%;height: 170px;}
+        #contact{padding: 0;}
+        .btn1{
+            background-color: transparent;
+            border-color: white;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            color: white;
+            border-width: thin;
+            font-weight: 700;
+            width:auto;
+            height: 37px;
+        }
+        .btn2{
+            background-color: transparent;
+            border-color: white;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            color: white;
+            border-width: thin;
+            font-weight: 700;
+            width:auto;
+            height: 37px;
+        }
+        a{
+            color: rgb(39, 2, 126);
+            font-weight: 300;
+        }
+        .quick{color: white;}
+        #ban2{background-image: url(./img/form_ban/356088.jpg);height:auto;}
+       #facebook{
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        background-color: blue;
+        padding: 9px;
+        font-size: 20px;
+       }
+       #facebook:hover{
+        background-color: white;
+        color: #0f0f0f;
+       }
+       #twitter{
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        background-color:chocolate;
+        padding: 9px;
+        font-size: 20px;
+       }
+       #twitter:hover{
+        background-color: white;
+        color: #0f0f0f;
+       }
+       #linkedin{
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        background-color:rgb(30, 123, 210);
+        padding: 9px;
+        font-size: 20px;
+       }
+       #linkedin:hover{
+        background-color: white;
+        color: #0f0f0f;
+       }
+       #instagram{
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        background-color:rgb(49, 151, 246);
+        padding: 9px;
+        font-size: 20px;
+       }
+       #instagram:hover{
+        background-color: white;
+        color: #0f0f0f;
+       }
+       #home{
+        text-align: center;
+        color: white;
+        padding: 9px;
+        font-size: 22px;
+       }
+       #phone{
+        text-align: center;
+        color: white;
+        padding: 9px;
+        font-size: 17px;
+       }
+       #envelope{
+        text-align: center;
+        color: white;
+        padding: 9px;
+        font-size: 17px;
+       }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="row">
+        <div id="banner" class="col-xs-12">
+            <img src="./img/shelterbanner1.png" alt="" class="img-responsive" width="100%">
+        
+           <div style="margin-top: 15px; margin-left: 15px;">
+               <a href="#" style="font-size: 18px; font-weight: 300;">Home</a>
+               <span style="color: grey; font-size: 18px;"> <b>></b> </span> 
+               <a href="#" style="font-size: 18px; font-weight: 300;">List Your Property</a>
+           </div>
+       </div>
+    </div>
+    <hr style="border-color:rgb(160, 158, 158);">
+    <div class="container">
+
+        <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div id="a">
+                <div class="row">
+                    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <img src="./img/HppyC.png" alt="" class="img-responsive" height="100px" width="100px" id="HppyC">
+                    </div>
+                    <div class="box col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <h1><b>359</b></h1>
+                    </div>
+                </div>
+                <center><h4 class="h4" style="font-weight: 600; font-size:21px; color: rgb(4, 4, 131);">Happy Customer</h4></center>
+            </div>
+        </div>
+
+        <div class="box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div id="b">
+                <div class="row">
+                    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <img src="./img/Bulding.png" alt="" height="100px" width="100px" class="img-responsive" id="Building">
+                    </div>
+                    <div class="box col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <h1><b>55</b></h1>
+                    </div>
+                </div>
+                <center><h4 class="h4" style="font-weight: 600; font-size:21px; color: rgb(4, 4, 131);">Rental Building</h4></center>
+            </div>
+        </div>
+
+        <div class="box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div id="c">
+                <div class="row">
+                    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <img src="./img/map.png" alt="" class="img-responsive" height="100px" width="100px" id="map">
+                    </div>
+                    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <h1><b>246</b></h1>
+                    </div>
+                </div>
+                 <center><h4 class="h4" style="font-weight: 600; font-size:21px; color: rgb(4, 4, 131);">Location</h4></center>
+            </div>
+        </div>
+
+        <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div id="c">
+                <div class="row">
+                    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <img src="./img/guest.png" alt="" class="img-responsive" height="250px" width="200px" id="guest">
+                    </div>
+                    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <h1><b>12</b></h1>
+                    </div>
+                </div>
+                <center><h4 class="h4" style="font-weight: 600; font-size:21px; color: rgb(4, 4, 131);">Guests</h4></center>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div id="ban2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="form" class="container" style="background-color: white; height: auto; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <center>
+                    <h1 style="color: rgb(79, 3, 150); font-size: 37px;">
+                        List Your Property With Us
+                    </h1>
+                </center>
+                    <br>
+                    <br>
+                    <h3 style="color: red;font-size: 18px;">
+                       All fields are mandatory
+                    </h3>
+                    <br>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                        <label style="font-weight: 600;font-size: 17px;">
+                            <i class="glyphicon glyphicon-user"></i>
+                            Your Name<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                        </label>
+                        <input type="text" name="" placeholder="Enter Your Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <span class="glyphicon glyphicon-phone"></span>
+                          <label style="font-weight: 600;font-size: 17px;">
+                              Phone No<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                          </label>
+                             <input type="text" name="" placeholder="Enter Your Phone No" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-window-restore"></i>
+                            <label style="font-weight: 600;font-size: 17px;">
+                                
+                                Total Room in Your Property<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                            </label>
+                               <input type="text" name="" placeholder="Enter Your Room" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <i class="fa fa-window"></i>
+                            <label style="font-weight: 600;font-size: 17px;">
+                                Room with Common wash room<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                            </label>
+                               <input type="text" name="" placeholder="Enter Your Common wash Romm" class="form-control">
+                          </div>
+                     </div>
+                     
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <div class="form-group">
+                        <i class="fa fa-map-marker"></i>
+                        <label style="font-weight: 600;font-size: 17px;">
+                            Location<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                        </label>
+                           <input type="text" name="" placeholder="Enter Your Location" class="form-control">
+                      </div> 
+                        
+                      <div class="form-group">
+                        <i class="glyphicon glyphicon-user"></i>
+                        <label style="font-weight: 600;font-size: 17px;">Ownership
+                            <span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                        </label>
+                           <select class="form-control list">
+                                <option disabled selected>Select Ownership</option>
+                                <option>Property Owner</option>
+                                <option>Property Manager</option>
+                           </select>
+                         </div>
+                             <div class="form-group">
+                                <i class="fa-regular fa-window-restore"></i>
+                               <label style="font-weight: 600;font-size: 17px;">
+                                   Room with attach wash room<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                               </label>
+                                  <input type="text" name="" placeholder="Enter Your attach wash room" class="form-control">
+                             </div>
+                             <div class="form-group">
+                                <i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>
+                               <label style="font-weight: 600;font-size: 17px;">
+                                   Expected Rent<span style="color: red;font-weight: 600;font-size: 22px;">*</span>
+                               </label>
+                                  <input type="text" name="" placeholder="Enter Your Accepted Rent" class="form-control">
+                             </div>
+                     </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <form>
+                          <div class="form-group">
+                        <label style="font-weight: 600;font-size: 17px;">
+                              Floor in your property<span style="color: red;font-weight: 400;font-size: 20px;">*</span>
+                          </label>
+                          <input type="text" name="" placeholder="Select Your Floor" class="form-control">
+                            </div>
+                      </form>
+                      <button class="btn btn-primary" style="margin-bottom: 10px;">Submit</button>
+                  </div>
+            </div>
+
+            <div  class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+                <h3 style="color:rgb(79, 3, 150); margin-top: 30px;">How Goshelter is Different </h3>
+                <p style="color: #797777; font-size: 17px;">
+                    Monthly 1 lakh people visit Goshelter in search of houses on rent 
+                </p>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
+                            <img src="./img/form_ban/guide.png" alt="" class="img-responsive">
+                        </div>  
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <h3 style="color:rgb(79, 3, 150);">Guided House Visits</h3>
+                        <p style="color: #797777; font-size: 17px;">
+                            We give guided tour of your house to interested tenants
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
+                        <img src="./img/form_ban/Renttime.png" alt="" class="img-responsive">
+                    </div>  
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h3 style="color:rgb(79, 3, 150);">Rent On Time</h3>
+                    <p style="color: #797777; font-size: 17px;">
+                        We guarantee rent on time every month
+                    </p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
+                        <img src="./img/form_ban/paperwork.png" alt="" class="img-responsive">
+                    </div>  
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h3 style="color:rgb(79, 3, 150);">Zero Paperwork</h3>
+                    <p style="color: #797777; font-size: 17px;">
+                        We do the paperwork for you like agreement creation
+                    </p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
+                        <img src="./img/form_ban/SAFE.png" alt="" class="img-responsive">
+                    </div>  
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h3 style="color:rgb(79, 3, 150);">House Safety</h3>
+                        <p style="color: #797777; font-size: 17px;">
+                          We ensure to keep your house in good condition
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <center>
+            <h1 style="color: rgb(2, 2, 119); font-family: 'lato',sans-serif; margin-top: 20px; margin-bottom: 30px;font-weight: 600;">
+               Living The Goshelter Life
+            </h1>
+        </center>
+    </div>
+    <div class="row">
+        <div class="container">
+          
+        <div  class="box col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div id="e">
+                <img src="./img/img2/Comfort and Convenience.jpg" alt="" class="img-responsive" id="Comfort">
+               <h4 style="padding: 10px;">
+                 Comfort and Convenience
+                </h4>
+              <p style="padding: 10px; font-size: 12px;">
+                  Furnished Homes fully managed by Goshelter LIFE. Just move-in with your bags.
+              </p>
+            </div>
+        </div>
+        <div  class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div id="f">
+                <img src="./img/img2/Safety and Security.jpg" alt="" class="img-responsive" id="Safety">
+                <h4 style="padding: 10px;">
+                    Safety and Security
+                </h4>
+                <p style="padding: 10px; font-size: 12px;">
+                    High-end security with CCTV cameras and On-call stay supervisor.
+                </p>
+            </div>
+        </div>
+        <div  class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div id="g">
+                <img src="./img/img2/PocketFriendly.jpg" alt="" class="img-responsive" id="PocketFriendly">
+            <h4 style="padding: 10px;">Pocket-friendly</h4>
+            <p style="padding: 10px; font-size: 12px;">
+                Super affordable rooms on rent available on sharing or private basis.
+            </p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div id="h">
+                <img src="./img/img2/Caring Community.jpg" alt="" class="img-responsive" id="Caring">
+            <h4 style="padding: 10px;">Caring Community</h4>
+            <p style="padding: 10px; font-size: 12px;">
+                From strangers to BFFs, feel at home with your new family here.
+            </p>
+            </div>
+        </div>
+    </div><br>
+    <div id="footer" class="col-xs-12">
+        <div class="container">
+            <div id="connect" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="row">
+                    <h4>Stay Connected</h4>
+                 <a href="https://www.facebook.com/"> <i class="fa fa-facebook" id="facebook"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fa fa-instagram" id="instagram"></i></a>   
+                 <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" id="twitter"></i></a> 
+                 <a href="https://www.linkedin.com/login" ><i class="fa fa-linkedin" id="linkedin"></i></a>  
+                    
+    
+                </div>
+                <div><h4>Booking Policy</h4>
+                    <button class="btn1">Booking Policy</button>
+                    <button class="btn1">Security Deposit</button>
+                    <button class="btn2">Cancellation& Refund Policy</button><br>   
+                    <button class="btn1">Safety&Security</button>
+                    <button class="btn1">Term Of Use</button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="quick">
+                <h4>Quick Links</h4>
+                <a class="quick" href="#" >About Us</a><br>
+                <a class="quick" href="#" >FAQ</a><br>
+                <a class="quick" href="#" >Contact Us</a><br>
+                <a class="quick" href="#" >List your Property</a>
+            </div>
+            <div id="contact" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h4> 
+                    Contact Informarmation
+                </h4>  
+                    <i class="fa fa-home" id="home">
+                        <span style="color: white; font-size: 16px; font-weight: 600;">
+                            Unit No-127, First Floor DLF Cyber City Patia 751024
+                        </span>
+                    </i>
+                    <br><br>
+                    <i class="fa fa-envelope" id="envelope">
+                        <span style="color: white; font-size: 18px; font-weight: 600;">
+                            goshelterhospitality@gmail.com
+                        </span>
+                    </i><br><br>
+                    <i class="fa fa-phone" id="phone">
+                        <span style="color: white; font-size: 18px; font-weight: 600;">
+                            +91-9777845131, +91-9777553131
+                        </span>
+                    </i>
+            </div>
+        </div>
+    </div>
+        <br>
+    <div id="secfoot" class="col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <h5 style="color: rgb(1, 1, 77);">Copyright 2020 | All rights reserved. Powered By :
+                  <span style="color: rgb(5, 202, 202);">
+                     <b>Quantumware</b>
+                  </span>
+              </h5>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
